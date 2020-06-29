@@ -1,0 +1,33 @@
+.brand-one__carousel {
+    padding-left: 48px;
+    padding-right: 48px;
+    border-bottom: 2px solid #eff0f9;
+    padding-top: 50px;
+    padding-bottom: 119px;
+
+    img {
+        opacity: 0.3;
+        transition: opacity .4s ease;
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+    &__item {
+        display: flex;
+    }
+}
+.my-carousel .owl-item {
+    clear: both;
+    display: inline-block;
+    float: none;
+    text-align: center;
+    vertical-align: middle;
+  }
+  .my-carousel .owl-item img {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+  }
+
